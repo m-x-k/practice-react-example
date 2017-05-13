@@ -18,8 +18,12 @@ edit lib/config.js   # Add configuration port
 ```
 
 ## Start
+```node lib/server.js```
+
+Or
 ```
-node lib/server.js
+yarn nodemon   # Terminal 1: Run the app
+yarn webpack   # Terminal 2: Auto-reload development changes
 ```
 
 Open the url: http://localhost:8081
