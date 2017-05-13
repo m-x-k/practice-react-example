@@ -21,3 +21,5 @@ edit lib/config.js   # Add configuration port
 ```
 node lib/server.js
 ```
+
+Open the url: http://localhost:8081
