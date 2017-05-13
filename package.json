@@ -1,0 +1,37 @@
+{
+  "name": "react-bb",
+  "version": "1.0.0",
+  "description": "my attempt at react-bb",
+  "main": "index.js",
+  "author": "Martin Kelly",
+  "license": "MIT",
+  "scripts": {
+    "nodemon": "nodemon lib/server.js",
+    "webpack": "webpack -wd"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.5.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^7.0.0",
+    "nodemon": "^1.11.0"
+  }
+}
