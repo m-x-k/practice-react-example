@@ -1,5 +1,11 @@
 # Practice React example
 
+## Requires
+
+* yarn
+* node.js
+* webpack (version 2)
+
 ## Initial steps followed:
 ```
 yarn init
