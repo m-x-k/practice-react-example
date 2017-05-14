@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "nodemon": "nodemon lib/server.js",
-    "webpack": "webpack -wd"
+    "webpack": "webpack -wd",
+    "test": "jest --watch"
   },
   "babel": {
     "presets": [
@@ -32,6 +33,7 @@
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
     "eslint-plugin-react": "^7.0.0",
+    "jest": "^20.0.1",
     "nodemon": "^1.11.0"
   }
 }
