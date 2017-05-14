@@ -6,18 +6,11 @@
 * node.js
 * webpack (version 2)
 
-## Initial steps followed:
-```
-yarn init
-yarn add express
-mkdir lib
-mkdir public
-
-edit lib/server.js   # Add express content
-edit lib/config.js   # Add configuration port
-```
-
 ## Start
+```
+yarn  # Load the dependencies
+```
+
 ```node lib/server.js```
 
 Or
@@ -27,3 +20,15 @@ yarn webpack   # Terminal 2: Auto-reload development changes
 ```
 
 Open the url: http://localhost:8081
+
+
+## Notes: Initial steps followed:
+```
+yarn init
+yarn add express
+mkdir lib
+mkdir public
+
+edit lib/server.js   # Add express content
+edit lib/config.js   # Add configuration port
+```
